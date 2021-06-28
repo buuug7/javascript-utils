@@ -1,6 +1,6 @@
 import parseTime from "./parse-time";
 
-it("should ", function () {
+it("should parse time as expected", function () {
   const now = new Date();
   const rs = parseTime(now);
 
