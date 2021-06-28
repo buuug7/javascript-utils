@@ -1,12 +1,6 @@
 /**
- *
+ * parse Date instance
  * @param {Date} time
- * @returns
- */
-
-/**
- * parse javascript Date() instance
- * @param time
  * @return {{seconds: string, month: string, hour: string, year: string, minutes: string, day: string}}
  */
 function parseTime(time) {

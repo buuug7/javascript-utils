@@ -1,1 +1,3 @@
-export parseTime from './parse-time'
+import parseTime from "./parse-time";
+
+export { parseTime };
