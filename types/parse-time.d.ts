@@ -1,14 +1,14 @@
 export default parseTime;
 /**
  * parse Date instance
- * @param {Date} time
- * @return {{seconds: string, month: string, hour: string, year: string, minutes: string, day: string}}
+ * @param {Date | number} time
+ * @return {{year: string, month: string, day: string, hour: string, minutes: string, seconds: string}}
  */
-declare function parseTime(time: Date): {
-    seconds: string;
-    month: string;
-    hour: string;
+declare function parseTime(time: Date | number): {
     year: string;
-    minutes: string;
+    month: string;
     day: string;
+    hour: string;
+    minutes: string;
+    seconds: string;
 };

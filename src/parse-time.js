@@ -1,25 +1,26 @@
 /**
  * parse Date instance
- * @param {Date} time
- * @return {{seconds: string, month: string, hour: string, year: string, minutes: string, day: string}}
+ * @param {Date | number} time
+ * @return {{year: string, month: string, day: string, hour: string, minutes: string, seconds: string}}
  */
 function parseTime(time) {
-  const year = time.getFullYear().toString();
-  const month = (time.getMonth() + 1).toString().replace(/^(\d)$/, "0$1");
-  const day = time
+  const date = new Date(time);
+  const year = date.getFullYear().toString();
+  const month = (date.getMonth() + 1).toString().replace(/^(\d)$/, "0$1");
+  const day = date
     .getDate()
     .toString()
     .replace(/^(\d)$/, "0$1");
-  const hour = time
+  const hour = date
     .getHours()
     .toString()
     .replace(/^(\d)$/, "0$1");
-  const minutes = time
+  const minutes = date
     .getMinutes()
     .toString()
     .replace(/^(\d)$/, "0$1");
 
-  const seconds = time.getSeconds().toString();
+  const seconds = date.getSeconds().toString();
 
   return {
     year,
