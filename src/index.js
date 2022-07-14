@@ -5,5 +5,6 @@ import loadScript from "./load-script";
 import loadStyle from "./load-style";
 import debounce from "./debounce";
 import throttle from "./throttle";
+import base64ToBlob from "./base64-to-blob";
 
-export { parseTime, isEmptyObject, randomBetween, loadScript, loadStyle, debounce, throttle };
+export { parseTime, isEmptyObject, randomBetween, loadScript, loadStyle, debounce, throttle, base64ToBlob };
