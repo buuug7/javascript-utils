@@ -1,6 +1,6 @@
 {
   "name": "@buuug7/javascript-utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "javascript utils",
   "main": "lib/index.js",
   "types": "types/index.d.ts",
