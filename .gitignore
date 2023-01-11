@@ -9,3 +9,5 @@ gen
 
 node_modules
 coverage/*
+
+.vscode/launch.json
