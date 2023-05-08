@@ -7,4 +7,7 @@
  * @param {number} wait
  * @return {(function(): void)|*}
  */
-export default function debounce(fn: Function, wait: number): (() => void) | any;
+export default function debounce(
+  fn: Function,
+  wait: number
+): (() => void) | any;
