@@ -54,7 +54,7 @@ export default function EventBus() {
    * you can control return promise with waitUntil function
    * @param {string} eventName
    * @param  {...any} rest
-   * @returns
+   * @return {Promise}
    */
   function emitThen(eventName, ...rest) {
     const event = {
