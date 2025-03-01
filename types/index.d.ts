@@ -7,4 +7,14 @@ import debounce from "./debounce";
 import throttle from "./throttle";
 import base64ToBlob from "./base64-to-blob";
 import strToChunk from "./str-to-chunk";
-export { parseTime, isEmptyObject, randomBetween, loadScript, loadStyle, debounce, throttle, base64ToBlob, strToChunk };
+export {
+  parseTime,
+  isEmptyObject,
+  randomBetween,
+  loadScript,
+  loadStyle,
+  debounce,
+  throttle,
+  base64ToBlob,
+  strToChunk,
+};

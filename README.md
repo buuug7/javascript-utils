@@ -20,10 +20,19 @@ const str = parseTime(new Date());
 
 ## utils
 
-- parseTime
+- base64ToBlob
+- cookie
+- debounce
+- EventBus
+- generateShortUID
+- groupBy
 - isEmptyObject
-- randomBetween
 - loadScript
 - loadStyle
-- debounce
+- numberToUpper
+- parseTime
+- randomBetween
+- sleep
+- strToChunk
 - throttle
+- treeSearch
